@@ -1,0 +1,35 @@
+{
+  "name": "virtual-dom-closure-widget",
+  "version": "1.0.0",
+  "description": "Make virtual-dom widgets by using a function closure that persists it's local state between renders.",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "start": "wzrd example.js",
+    "test": "wzrd example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smallhelm/virtual-dom-closure-widget.git"
+  },
+  "keywords": [
+    "virtual-dom",
+    "vdom",
+    "h",
+    "widget"
+  ],
+  "author": "smallhelm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smallhelm/virtual-dom-closure-widget/issues"
+  },
+  "homepage": "https://github.com/smallhelm/virtual-dom-closure-widget#readme",
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "main-loop": "^3.2.0",
+    "virtual-dom": "^2.1.1",
+    "wzrd": "^1.3.1"
+  }
+}
